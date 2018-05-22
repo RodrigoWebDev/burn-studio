@@ -74,6 +74,31 @@ nav {
             color: $color1;
         }
     }
+    i{
+        font-size:30px;
+        cursor:pointer;
+    }
+    .drop{
+        position: absolute;
+        top:97px;
+        left:0;
+        width:100%;
+        display:none;
+        li{
+            a{
+                color:white;
+                text-align:center;
+                display:block;
+                margin:0 auto;
+                padding:10px 0;
+            }
+            a:hover{
+                background:$color1;
+                text-decoration:none;
+                transition:.2s;
+            }
+        }
+    }
 }
 
 //HERO
@@ -184,6 +209,16 @@ footer {
     ul.navigation {
         a {
             color: #099999;
+        }
+    }
+}
+
+//RESPONSIVIDADE
+
+@media screen and (max-width:768px){
+    nav{
+        ul.navigation{
+            display:none;
         }
     }
 }

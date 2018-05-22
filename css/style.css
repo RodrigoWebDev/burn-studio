@@ -55,6 +55,25 @@ nav {
       text-decoration: none; }
     nav h1 span {
       color: #ca1f1f; }
+  nav i {
+    font-size: 30px;
+    cursor: pointer; }
+  nav .drop {
+    position: absolute;
+    top: 97px;
+    left: 0;
+    width: 100%;
+    display: none; }
+    nav .drop li a {
+      color: white;
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+      padding: 10px 0; }
+    nav .drop li a:hover {
+      background: #ca1f1f;
+      text-decoration: none;
+      transition: .2s; }
 
 .hero {
   padding: 70px 0; }
@@ -119,5 +138,9 @@ footer {
     color: #ca1f1f; }
   footer ul.navigation a {
     color: #099999; }
+
+@media screen and (max-width: 768px) {
+  nav ul.navigation {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */

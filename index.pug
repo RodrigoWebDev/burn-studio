@@ -12,11 +12,12 @@ html(lang='en')
     nav.wow.fadeIn
         .container
             .row
-                .col-md-3
+                .col-6.col-md-3
                     h1
                         a(href="#brnstudio" class="hover") burn
                             span studio
-                .col-md-9
+                .col-6.col-md-9.d-flex.align-items-center.justify-content-end
+                    i.d-md-none(class="fas fa-bars hover")
                     ul.navigation
                         li 
                             a(href="#portfolio") portfolio
@@ -24,6 +25,14 @@ html(lang='en')
                         li 
                             a(href="#about") about me
                         li /
+                        li 
+                            a(href="#") contact me
+                            
+            ul.drop.bg-dark
+                        li 
+                            a(href="#portfolio") portfolio
+                        li 
+                            a(href="#about") about me
                         li 
                             a(href="#") contact me
     hr#brnstudio(style="padding-top:100px;")

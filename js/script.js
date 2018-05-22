@@ -28,7 +28,11 @@ $('a[href*="#"]')
     }
   });
 
-//Destaca os links que foram clicados. Eu poderia ter feito também com jQuery, porém optei pelo Javascript puro só pra mostrar que não dependo de jQuery :D
+$("nav i").click(function(){
+    $("nav .drop").toggle(300);
+})
+
+//Destaca os links que foram clicados
 
 let links = document.querySelectorAll("nav ul a");
 console.log(links);
