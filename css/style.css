@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+section {
+  padding: 40px 0; }
+  section h2 {
+    padding-bottom: 30px;
+    font-weight: bolder; }
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+  .navigation li {
+    margin-left: 10px; }
+    .navigation li a, .navigation li a:hover {
+      color: inherit;
+      font-weight: bolder; }
+    .navigation li a.active {
+      color: rgba(0, 0, 0, 0.5); }
+
+ul {
+  margin: 0;
+  list-style: none; }
+
+h1 {
+  margin: 0; }
+
+.container {
+  max-width: 1000px; }
+
+hr {
+  margin: 0; }
+
+.hover:hover {
+  opacity: 0.5;
+  transition: 0.4s;
+  cursor: pointer; }
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 30px; }
+  nav h1 {
+    font-size: 30px;
+    font-weight: bolder; }
+    nav h1 a, nav h1 a:hover {
+      color: inherit;
+      text-decoration: none; }
+    nav h1 span {
+      color: #ca1f1f; }
+
+.hero {
+  padding: 70px 0; }
+  .hero p {
+    padding: 20px 0; }
+  .hero .btn {
+    padding-left: 30px;
+    padding-right: 30px; }
+    .hero .btn a {
+      font-weight: bolder; }
+  .hero .btn:hover {
+    background: #ca1f1f;
+    border-color: #ca1f1f; }
+
+.last-projects a, .last-projects a:hover {
+  color: inherit;
+  text-decoration: none; }
+.last-projects .card {
+  border-radius: 0;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px; }
+  .last-projects .card img {
+    border-radius: 0; }
+  .last-projects .card .card-body {
+    text-align: center; }
+    .last-projects .card .card-body h5 {
+      font-weight: bolder; }
+
+.bottom {
+  background: #e5e5e5; }
+  .bottom .social {
+    padding: 20px 0; }
+    .bottom .social ul {
+      display: flex;
+      align-items: center; }
+      .bottom .social ul li {
+        margin-right: 20px; }
+        .bottom .social ul li a {
+          color: inherit; }
+          .bottom .social ul li a i {
+            font-size: 40px; }
+        .bottom .social ul li a:hover {
+          color: #ca1f1f;
+          transition: .3s; }
+  .bottom .whats-new h3 {
+    font-size: 20px;
+    font-weight: bolder; }
+  .bottom .whats-new p {
+    font-size: 12px; }
+  .bottom .whats-new h3 a, .bottom .whats-new h3 a:hover {
+    color: inherit; }
+  .bottom .whats-new a, .bottom .whats-new a:hover {
+    color: #ca1f1f; }
+  .bottom .whats-new hr {
+    margin: 35px 0; }
+
+footer {
+  padding: 40px; }
+  footer .col-md-3 a {
+    color: #ca1f1f; }
+  footer .col-md-3 a:hover {
+    color: #ca1f1f; }
+  footer ul.navigation a {
+    color: #099999; }
+
+/*# sourceMappingURL=style.css.map */
