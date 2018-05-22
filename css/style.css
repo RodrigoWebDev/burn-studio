@@ -140,7 +140,27 @@ footer {
     color: #099999; }
 
 @media screen and (max-width: 768px) {
+  h2, h3 {
+    text-align: center; }
+
+  .bottom .social ul {
+    justify-content: center;
+    margin-bottom: 40px; }
+
+  .last-projects .col-md-4 {
+    margin-bottom: 20px; }
+
   nav ul.navigation {
-    display: none; } }
+    display: none; }
+
+  .whats-new h3 {
+    margin: 1rem 0; }
+  .whats-new p {
+    text-align: center; }
+
+  footer {
+    text-align: center; }
+    footer ul {
+      justify-content: center !important; } }
 
 /*# sourceMappingURL=style.css.map */
