@@ -19,13 +19,13 @@ html(lang='en')
                 .col-md-9
                     ul.navigation
                         li 
-                            a(href="" class="active") portfolio
+                            a(href="#portfolio") portfolio
                         li /
                         li 
-                            a(href="") about me
+                            a(href="#about") about me
                         li /
                         li 
-                            a(href="") contact me
+                            a(href="#") contact me
     hr
     
     //-----------------------HERO-------------------------
@@ -41,7 +41,7 @@ html(lang='en')
     
     //-------------------LAST PROJECTS-----------------
     
-    section.last-projects.wow.fadeInUp
+    section.last-projects.wow.fadeInUp#portfolio
         .container
             h2 My Latest Project
             .row
@@ -75,7 +75,7 @@ html(lang='en')
                    
     //----------------BOTTOM-----------------
     
-    section.bottom.wow.fadeInUp
+    section.bottom.wow.fadeInUp#about
         .container
             .row
                 .col-md-6
@@ -140,10 +140,12 @@ html(lang='en')
                         li /
                         li 
                             a(href="") contact me
+                            
                     
-    
+    script(src='js/jquery.min.js')
     script(src='js/wow.min.js')
     script.  
         new WOW().init();
+    script(src='js/script.js')
     
   
