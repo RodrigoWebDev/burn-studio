@@ -28,6 +28,8 @@ $('a[href*="#"]')
     }
   });
 
+//Destaca os links que foram clicados. Eu poderia ter feito também com jQuery, porém optei pelo Javascript puro só pra mostrar que não dependo de jQuery :D
+
 let links = document.querySelectorAll("nav ul a");
 console.log(links);
 

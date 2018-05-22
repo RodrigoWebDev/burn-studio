@@ -55,6 +55,11 @@ hr {
 
 //NAV
 nav {
+    position:fixed;
+    width:100%;
+    z-index:3;
+    background:white;
+    box-shadow: 1px 0px 5px silver;
     display: flex;
     align-items: center;
     padding: 30px;
